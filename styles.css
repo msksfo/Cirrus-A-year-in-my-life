@@ -24,8 +24,15 @@ figure {
 	border: 1px solid gray;
 	padding: 3%;
 	transition: 1s ease-in-out;
+	display: flex;
+	flex-direction: column;
 }
 
+
+
+figure figcaption {
+	margin-top: auto;
+}
 
 
 .wrapper:hover figure {
